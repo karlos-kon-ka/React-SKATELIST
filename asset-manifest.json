@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/React-SKATELIST/static/css/main.f7bc9bc2.css",
-    "main.js": "/React-SKATELIST/static/js/main.734158cc.js",
+    "main.css": "/React-SKATELIST/static/css/main.b88121b6.css",
+    "main.js": "/React-SKATELIST/static/js/main.91ef4cea.js",
+    "static/media/animaskate.gif": "/React-SKATELIST/static/media/animaskate.28ceba8fbc2a9db014b2.gif",
     "index.html": "/React-SKATELIST/index.html",
-    "main.f7bc9bc2.css.map": "/React-SKATELIST/static/css/main.f7bc9bc2.css.map",
-    "main.734158cc.js.map": "/React-SKATELIST/static/js/main.734158cc.js.map"
+    "main.b88121b6.css.map": "/React-SKATELIST/static/css/main.b88121b6.css.map",
+    "main.91ef4cea.js.map": "/React-SKATELIST/static/js/main.91ef4cea.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7bc9bc2.css",
-    "static/js/main.734158cc.js"
+    "static/css/main.b88121b6.css",
+    "static/js/main.91ef4cea.js"
   ]
 }
