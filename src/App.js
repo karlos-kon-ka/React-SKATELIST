@@ -3,6 +3,8 @@ import './App.css';
 import Creadortrucos from './components/Creadortrucos';
 import {Tasktable} from './components/Tasktable';
 import { Visibiliti } from './components/Visibiliti';
+import Logo from './components/Logo';
+import {Footer} from './components/Footer';
 
 function App() {
   const [taskItems, setTaskItems] = useState([]);
@@ -41,7 +43,8 @@ function App() {
 
   return (
     <main className="App">
-      <div className="container p-4 col-md-4 offset-md-4">
+      <div className="container p-4 col-md-4 offset-md-4   ">
+      <Logo />
       
       <Creadortrucos className="Creador" createNewTask={createNewTask} />
       <Tasktable toggleTask={toggleTask} tasks={taskItems} /  >
@@ -57,7 +60,9 @@ function App() {
 
         )
       }
+      <Footer    />
       </div>
+      
       
     </main>
   );

@@ -19,7 +19,7 @@ export const Tasktable = ({ tasks, toggleTask, showCompleted = false }) => {
       <table id='tabla' className='table table-dark table-border table-striped border-secondary'>
         <thead >
           <tr >
-            <th >TRICKs POR HACER</th>
+            <th >TRICKs </th>
           </tr>
         </thead>
         <tbody>

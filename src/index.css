@@ -1,6 +1,6 @@
 body
  {
-  background: rgb(198, 255, 153);
+ 
   background: linear-gradient(
     90deg,
     rgba(198, 255, 153, 1) 6%,
@@ -8,19 +8,64 @@ body
     rgba(218, 196, 44, 1) 71%,
     rgba(203, 185, 47, 1) 92%
   );
-  margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.imagen{
+  width: 100%;
+  height: 100%;
+  max-width: 250px ;
+  max-height:  250px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px black;
+}
+.descripcion{
+  border-radius: 6px;
+  padding: 8px;
+  text-wrap: balance;
+}
 
+footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px ;
+  margin-top:20px;
+  border-radius: 15px;
+}
+
+@media (max-width: 700px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+ 
+}
 .formulario input {
   border-radius: 8px;
   padding: 5px;
   text-align: center;
   margin: 10px;
+}
+h1{
+  color: rgb(237, 239, 241);
+}
+span{
+  font-size: 18px;
+  color: rgb(209, 89, 89);
+}
+.container{
+  
+  
+
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 #tabla{

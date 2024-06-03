@@ -1,7 +1,7 @@
 export const Visibiliti  = ({isChecked, setShowCompleted, cleanTask})=>{
 
     const handleDelete  = () => {
-if (window.confirm('estas seguro que quieres borrar?')){
+if (window.confirm('¿Estas seguro  de que quieres borrar?')){
     cleanTask()
 }
     }
