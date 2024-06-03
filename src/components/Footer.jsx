@@ -6,7 +6,7 @@ export  const Footer = () => {
   return (
     <footer className="bg-dark text-white text-center ">
       <div className="container2">
-        <p>¿Quieres saber quién soy? ¡Visita mi perfil!</p>
+        
         <div className=" ">
           <a
             href="https://github.com/karlos-kon-ka"
