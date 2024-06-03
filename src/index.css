@@ -61,11 +61,24 @@ span{
   color: rgb(209, 89, 89);
 }
 .container{
+  display: inline-block;
+  margin: 0 0.5rem;
   
   
 
-  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+  animation: fadeInLeft; 
+  animation-duration: 3s; /* don't forget to set a duration! */
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 #tabla{
